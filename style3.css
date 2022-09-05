@@ -1,0 +1,103 @@
+/*Blog page CSS*/
+
+
+#page-header.blog-header{
+    background-image: url('img/banner/b19.jpg');
+}
+#blogs{
+    padding: 150px 150px 0 150px;
+}
+
+#blogs .blog-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+}
+#blogs .blog-img{
+    width: 50%;
+    margin-right: 40px;
+}
+
+#blogs img{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+#blogs .blog-details p{
+    color: black;
+}
+#blogs .blog-details{
+    width: 50%;
+    
+    
+}
+#blogs .blog-details a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+}
+#blogs .blog-details a::after{
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+}
+
+#blogs .blog-details a:hover{
+    color: #088178;
+}
+#blogs .blog-details a:hover::after{
+    background-color: #088178;
+}
+#blogs .blog-box h1{
+
+    position:absolute;
+    top:-40px;
+    left :0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -9;
+}
+
+#page-header.about-header{
+    background-image: url('img/about/banner.png');
+}
+#about-head {
+    display:flex;
+    align-items: center;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head p{
+    color:#000;
+}
+#about-head div{
+    padding-left: 40px;
+}
+
+#about-app{
+    text-align: center;
+}
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+
+#about-app .video video{
+
+    border-radius: 20px;
+
+
+}
